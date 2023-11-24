@@ -11,7 +11,7 @@ User = get_user_model()
 
 
 # アカウント登録
-class RegiserView(APIView):
+class RegisterView(APIView):
     permission_classes = (permissions.AllowAny, )
 
     def post(self, request):
